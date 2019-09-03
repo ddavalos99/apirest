@@ -8,7 +8,7 @@ var app = express();
 
 
 // Set up mongoose connection
-var mongoose = require('mongoose'); 
+var mongoose = require('mongoose');
 //Debes crear una cuenta en mlab y crear tu db en este caso: productosdid
 var dev_db_url = 'mongodb://youser:ourpass@dsyournumber.mlab.com:port/productosdid';
 var mongoDB = process.env.MONGODB_URI || dev_db_url;

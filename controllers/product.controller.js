@@ -2,7 +2,7 @@ var Product = require('../models/product');
 
 //Simple version, without validation or sanitation
 exports.test = function (req, res) {
-    res.send('Greetings from the Test controller!');
+    res.send('Saludos desde el controlador de Test!');
 };
 
 exports.product_create = function (req, res) {
