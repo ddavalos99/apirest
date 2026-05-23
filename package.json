@@ -10,8 +10,8 @@
   "author": "'Diego <'diego.davalos@gmail.cl'>",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.22.1",
+    "body-parser": "^1.20.5",
+    "express": "^4.22.2",
     "mongoose": "^6.13.6"
   },
   "devDependencies": {}
